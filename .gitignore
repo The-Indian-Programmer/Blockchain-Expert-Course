@@ -1,0 +1,40 @@
+# macOS-specific files
+.DS_Store
+
+# Hardhat artifacts and build files
+artifacts/
+cache/
+coverage/
+src/contracts/hardhat-ovm/
+src/contracts/hardhat-bsc/
+src/contracts/hardhat-localhost/
+
+# Solidity compiler output
+*.json
+*.d.ts
+
+# Node.js dependencies
+node_modules/
+
+# Hardhat-specific configuration files
+hardhat.config.ts
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Visual Studio Code specific files
+.vscode/
+
+# Compiled output (remove this if using TypeScript)
+build/
+dist/
+out/
+
+# Editor-specific temporary files
+*~
+*.swp
+
+# Logs
+*.log
